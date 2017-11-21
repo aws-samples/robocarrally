@@ -1,4 +1,4 @@
-## Robocarrally
+## Robocar Rally
 
 The two python files are designed to be run on a raspberrypi and send wheel rotationtelemetry to the AWS IoT Service.
 Create a wheelsensor.py for each wheel that you want to measure. The AWSAutonomousVehicleIOT.py references each of these wheel sensors.
