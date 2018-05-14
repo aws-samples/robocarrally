@@ -9,6 +9,9 @@ Modify the scripts/main.js and change the IOTENDPOINT to your AWS IoT endpoint. 
 
 Modify the TOPIC to reflect your AWS IoT Topic.
 
+
+IAM Policy can be used for training a model using Amazon SageMaker using training data on S3. This allows a docker container to be from Amazon ECR to train the model.
+
 ## License
 
 This library is licensed under the Apache 2.0 License. 
